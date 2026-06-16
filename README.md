@@ -119,7 +119,7 @@ follows that chain:
 | Module 4 | Real-world application and industry use cases | ✅ Complete |
 | Module 5 | AI risk assessment — deep dive | ✅ Complete |
 | Module 6 | Governance controls | ✅ Complete |
-| Module 7 | Audit readiness and evidence | 🔜 Coming |
+| Module 7 | Audit readiness and evidence | ✅ Complete |
 | Module 8 | GRC engineering and automation | 🔜 Coming |
 | Module 9 | Practical templates | 🔜 Coming |
 | Module 10 | Career, interview prep, and capstone | 🔜 Coming |
