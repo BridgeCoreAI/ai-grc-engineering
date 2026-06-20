@@ -315,4 +315,4 @@ real, usable deliverable for your BridgeCore portfolio.
 ---
 
 *Previous: [Module 8 — GRC Engineering & Automation](module-08-grc-engineering.md)*
-*Next: Module 10 — Career, Interview Prep & Capstone (coming soon)*
+*This is the final module in the public NIST AI RMF curriculum.*

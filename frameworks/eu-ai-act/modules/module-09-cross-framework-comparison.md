@@ -199,4 +199,4 @@ three frameworks.
 ---
 
 *Previous: [Module 8 — Phased Implementation Timeline and the Digital Omnibus](module-08-implementation-timeline.md)*
-*Next: Module 10 — Capstone: EU AI Act Compliance Roadmap (coming soon)*
+*This is the final module in the public EU AI Act curriculum.*

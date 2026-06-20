@@ -186,4 +186,4 @@ assessment alone would have concluded modify was sufficient.
 ---
 
 *Previous: [Module 8 — Continual Improvement Under Clause 10](module-08-continual-improvement-clause10.md)*
-*Next: Module 10 — ISO 42001 Capstone: Building a Complete AIMS Implementation Plan (coming soon)*
+*This is the final module in the public ISO 42001 curriculum.*
