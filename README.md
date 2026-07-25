@@ -14,13 +14,17 @@
 > A practical, engineering-first approach to AI Governance, Risk, and Compliance —
 > translating frameworks into working systems, templates, automation scripts, and audit-ready evidence.
 
+See [`AIGRC_Executive_Summary.md`](./AIGRC_Executive_Summary.md) for a one-page overview of this project.
+
 ---
 
 ## What this repository is
 
-This repository documents my journey from AI GRC practitioner to AI GRC **engineer**. It covers the major AI governance frameworks, translates them into operational controls and workflows, and engineers those into repeatable, measurable, and auditable systems.
+This repository documents the translation of AI GRC practice into AI GRC **engineering**. It covers the major AI governance frameworks, translates them into operational controls and workflows, and engineers those into repeatable, measurable, and auditable systems.
 
-It is both a learning record and a professional portfolio. Every framework is documented from first principles. Every template is production-ready. Every script automates a real GRC task.
+It is both a completed learning record and a professional portfolio. Every framework is documented from first principles. Every template is production-ready. Every script automates a real GRC task.
+
+A private companion repository extends this work with client-facing tooling, evidence-generation systems, and applied consulting artifacts not published here.
 
 ---
 
@@ -28,10 +32,11 @@ It is both a learning record and a professional portfolio. Every framework is do
 
 | Framework | Status | Folder |
 |---|---|---|
-| NIST AI Risk Management Framework (AI RMF 1.0) | ✅ In progress | `frameworks/nist-ai-rmf/` |
-| ISO/IEC 42001:2023 | 🔜 Coming soon | `frameworks/iso-42001/` |
-| EU AI Act | 🔜 Coming soon | `frameworks/eu-ai-act/` |
-| OECD AI Principles | 🔜 Coming soon | `frameworks/oecd-ai-principles/` |
+| NIST AI Risk Management Framework (AI RMF 1.0) | ✅ Complete | `frameworks/nist-ai-rmf/` |
+| ISO/IEC 42001:2023 | ✅ Complete | `frameworks/iso-42001/` |
+| EU AI Act | ✅ Complete | `frameworks/eu-ai-act/` |
+
+Each framework folder follows the same structure: a `README.md` overview, a `modules/` set of module-by-module breakdowns, and an `assets/` folder with supporting diagrams. NIST AI RMF additionally includes a `references/` folder of quick-lookup cards.
 
 ---
 
@@ -41,43 +46,39 @@ It is both a learning record and a professional portfolio. Every framework is do
 ai-grc-engineering/
 │
 ├── README.md                          ← You are here
+├── AIGRC_Executive_Summary.md         ← One-page project overview
+├── LICENSE
+├── setup-repo.sh                      ← Repo bootstrap script
 │
 ├── frameworks/
-│   └── nist-ai-rmf/
-│       ├── README.md                  ← Framework overview
-│       ├── modules/                   ← Module-by-module learning notes
-│       │   ├── module-01-overview.md
-│       │   ├── module-02-four-functions.md
-│       │   └── module-03-key-concepts.md
-│       ├── references/                ← Quick-reference documents
-│       │   ├── trustworthy-ai-properties.md
-│       │   ├── ai-lifecycle-stages.md
-│       │   ├── risk-types.md
-│       │   └── human-oversight-levels.md
-│       └── templates/                 ← Framework-specific templates
+│   ├── nist-ai-rmf/
+│   │   ├── README.md
+│   │   ├── modules/                   ← 9 modules, overview through practical templates
+│   │   ├── references/                ← 4 quick-reference cards
+│   │   └── assets/                    ← 4 diagrams
+│   │
+│   ├── iso-42001/
+│   │   ├── modules/                   ← 9 modules, overview through Annex B impact assessments
+│   │   └── assets/                    ← PDCA cycle diagram
+│   │
+│   └── eu-ai-act/
+│       ├── modules/                   ← 9 modules, overview through cross-framework comparison
+│       └── assets/                    ← Risk-tiers diagram
 │
-├── templates/                         ← Operational GRC templates
-│   ├── intake/
-│   │   └── ai-intake-workflow.md
-│   ├── risk-assessment/
-│   │   └── ai-risk-assessment-template.md
-│   └── control-library/
-│       └── ai-control-library.md
+├── templates/
+│   └── intake/
+│       └── ai-intake-workflow.md      ← AI system intake and triage workflow
 │
-├── scripts/                           ← Automation scripts (coming after Module 8)
+├── scripts/                           ← GRC automation (Python)
+│   ├── README.md
+│   ├── risk_rating.py
+│   ├── risk_tier_classifier.py
+│   ├── generate_risk_register.py
+│   ├── check_evidence_staleness.py
+│   └── package_evidence.py
 │
-├── case-studies/                      ← Applied case studies by industry
-│   ├── healthcare/
-│   ├── banking/
-│   ├── hr/
-│   ├── government/
-│   └── cybersecurity/
-│
-├── control-mappings/                  ← Cross-framework control mappings
-│
-├── dashboards/                        ← GRC dashboard apps (coming after Module 10)
-│
-└── .github/workflows/                 ← CI automation (coming after Module 9)
+└── assets/
+    └── three-pillars-ai-governance-comparison.png
 ```
 
 ---
@@ -94,54 +95,50 @@ follows that chain:
 2. **Translate it into a policy or control** (e.g. AI Governance Policy, AI risk ownership)
 3. **Engineer it into a workflow** (e.g. AI intake process, approval gate)
 4. **Define the evidence** (e.g. signed approval record, risk register entry)
-5. **Make it measurable** (e.g. dashboard metric, monitoring alert)
-6. **Make it auditable** (e.g. version-controlled record, change log)
+5. **Make it measurable** (e.g. risk score, staleness check)
+6. **Make it auditable** (e.g. version-controlled record, packaged evidence bundle)
 
 ---
 
 ## How to use this repository
 
-**If you are learning AI GRC:** Read the module notes in order under `frameworks/nist-ai-rmf/modules/`. Each module builds on the last. The reference documents are quick-lookup cards you will use repeatedly.
+**If you are learning AI GRC:** Read the module notes in order under each framework's `modules/` folder. Each module builds on the last. Reference documents under `frameworks/nist-ai-rmf/references/` are quick-lookup cards you will use repeatedly.
 
-**If you are a hiring manager or client:** The templates under `templates/` are production-ready and can be adapted for immediate use. The case studies show applied thinking across industries. Scripts (coming) demonstrate engineering capability.
+**If you are a hiring manager or client:** `templates/intake/ai-intake-workflow.md` is production-ready and adaptable for immediate use. The scripts under `scripts/` demonstrate applied automation of GRC tasks — risk rating, risk register generation, evidence staleness checks, and evidence packaging.
 
-**If you are an auditor or reviewer:** Every document is version-controlled with commit history. The control library maps controls to framework requirements. The evidence checklist shows what documentation is maintained.
+**If you are an auditor or reviewer:** Every document is version-controlled with commit history. `scripts/README.md` documents what each automation script does and how it maps to control requirements.
 
 ---
 
-## Modules completed
+## Scripts
 
-| Module | Topic | Status |
-|---|---|---|
-| Module 1 | What NIST AI RMF is, why it was created, who uses it | ✅ Complete |
-| Module 2 | The four core functions: GOVERN, MAP, MEASURE, MANAGE | ✅ Complete |
-| Module 3 | Key concepts: Trustworthy AI, AI lifecycle, risk types, impact | ✅ Complete |
-| Module 4 | Real-world application and industry use cases | ✅ Complete |
-| Module 5 | AI risk assessment — deep dive | ✅ Complete |
-| Module 6 | Governance controls | ✅ Complete |
-| Module 7 | Audit readiness and evidence | ✅ Complete |
-| Module 8 | GRC engineering and automation | ✅ Complete |
-| Module 9 | Practical templates | ✅ Complete |
-| Module 10 | Cross-framework capstone and applied case study | ✅ Complete |
+| Script | Purpose |
+|---|---|
+| `risk_rating.py` | Scores an AI system's risk based on defined inputs |
+| `risk_tier_classifier.py` | Assigns a risk tier consistent with framework risk categories |
+| `generate_risk_register.py` | Builds a structured risk register from intake data |
+| `check_evidence_staleness.py` | Flags governance evidence that has aged past a defined threshold |
+| `package_evidence.py` | Bundles evidence artifacts into an audit-ready package |
+
+See `scripts/README.md` for usage details.
 
 ---
 
 ## Technologies used
 
 - **Documentation:** Markdown
-- **Templates:** Markdown, Excel (coming), Word (coming)
-- **Scripting:** Python (coming — after Module 8)
-- **Automation:** GitHub Actions (coming — after Module 9)
-- **Dashboard:** Streamlit (coming — after Module 10)
+- **Templates:** Markdown
+- **Scripting:** Python
+- **Version control:** Git / GitHub
 
 ---
 
 ## About this project
 
-Built as part of a structured AI GRC engineering curriculum covering:
-NIST AI RMF · ISO/IEC 42001:2023 · EU AI Act · OECD AI Principles ·
-AI risk assessment · GRC engineering · audit readiness · control automation
+Built as a structured AI GRC engineering portfolio covering:
+NIST AI RMF · ISO/IEC 42001:2023 · EU AI Act ·
+AI risk assessment · GRC engineering automation · audit readiness · evidence generation
 
 ---
 
-*Last updated: Module 4 complete*
+*Last updated: All three frameworks (NIST AI RMF, ISO 42001, EU AI Act) complete, alongside intake workflow templates and GRC automation scripts.*
