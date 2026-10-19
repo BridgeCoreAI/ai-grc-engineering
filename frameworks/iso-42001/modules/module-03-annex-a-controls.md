@@ -167,4 +167,4 @@ AI RMF Module 7, relabeled to ISO terminology).
 ---
 
 *Previous: [Module 2 — The Seven Core Clauses in Depth](module-02-seven-clauses.md)*
-*Next: Module 4 — Certification Process and Audit Cycle (coming soon)*
+*Next: Module 4 — Certification Process and Audit Cycle*

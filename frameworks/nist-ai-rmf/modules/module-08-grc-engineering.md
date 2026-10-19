@@ -386,4 +386,4 @@ traditional compliance consultancy.
 ---
 
 *Previous: [Module 7 — Audit Readiness & Evidence](module-07-audit-readiness.md)*
-*Next: Module 9 — Practical Templates (coming soon)*
+*Next: Module 9 — Practical Templates*

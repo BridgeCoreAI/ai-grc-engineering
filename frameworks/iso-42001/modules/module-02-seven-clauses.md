@@ -261,4 +261,4 @@ this framework.
 ---
 
 *Previous: [Module 1 — Overview](module-01-overview.md)*
-*Next: Module 3 — Annex A Controls Catalog (coming soon)*
+*Next: Module 3 — Annex A Controls Catalog*

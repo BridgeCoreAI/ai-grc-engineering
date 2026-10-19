@@ -181,4 +181,4 @@ to be formatted or stored.
 ---
 
 *Previous: [Module 6 — Operational Controls and Clause 8](module-06-operational-controls-clause8.md)*
-*Next: Module 8 — Continual Improvement Under Clause 10 (coming soon)*
+*Next: Module 8 — Continual Improvement Under Clause 10*

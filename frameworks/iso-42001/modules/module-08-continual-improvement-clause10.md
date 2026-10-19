@@ -167,4 +167,4 @@ quickly individual corrective actions get closed.
 ---
 
 *Previous: [Module 7 — Performance Evaluation Under Clause 9](module-07-performance-evaluation-clause9.md)*
-*Next: Module 9 — AI System Impact Assessments and Annex B Implementation Guidance (coming soon)*
+*Next: Module 9 — AI System Impact Assessments and Annex B Implementation Guidance*

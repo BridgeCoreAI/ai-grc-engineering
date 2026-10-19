@@ -180,4 +180,4 @@ requires.
 ---
 
 *Previous: [Module 6 — Risk Management Systems Under Article 9](module-06-risk-management-article9.md)*
-*Next: Module 8 — National Implementation and the AI Pact (coming soon)*
+*Next: Module 8 — National Implementation and the AI Pact*

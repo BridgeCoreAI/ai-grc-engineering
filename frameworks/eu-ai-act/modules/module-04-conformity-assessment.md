@@ -219,4 +219,4 @@ distributes across an ISO 42001 implementation.
 ---
 
 *Previous: [Module 3 — Limited-Risk Transparency Obligations and General-Purpose AI](module-03-transparency-gpai.md)*
-*Next: Module 5 — Governance Bodies, Enforcement, and Penalties (coming soon)*
+*Next: Module 5 — Governance Bodies, Enforcement, and Penalties*

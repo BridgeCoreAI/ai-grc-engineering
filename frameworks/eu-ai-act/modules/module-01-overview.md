@@ -2,7 +2,7 @@
 ## Binding law, not a framework you opt into
 
 > **Framework:** EU AI Act — Regulation (EU) 2024/1689
-> **Module:** 1 of 10 (estimated)
+> **Module:** 1 of 9
 > **Status:** ✅ Complete
 
 ---
@@ -187,4 +187,4 @@ the first place.
 
 ---
 
-*Next: Module 2 — Prohibited Practices and the High-Risk Classification System (coming soon)*
+*Next: Module 2 — Prohibited Practices and the High-Risk Classification System*

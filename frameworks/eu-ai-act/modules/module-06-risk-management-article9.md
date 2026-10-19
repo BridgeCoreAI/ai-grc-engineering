@@ -188,4 +188,4 @@ covered in Module 5's penalty discussion.
 ---
 
 *Previous: [Module 5 — Governance Bodies, Enforcement, and Penalties](module-05-governance-enforcement-penalties.md)*
-*Next: Module 7 — Data Governance and Human Oversight Requirements (coming soon)*
+*Next: Module 7 — Data Governance and Human Oversight Requirements*

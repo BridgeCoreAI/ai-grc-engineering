@@ -182,4 +182,4 @@ to begin with.
 ---
 
 *Previous: [Module 4 — Conformity Assessment for High-Risk AI Systems](module-04-conformity-assessment.md)*
-*Next: Module 6 — Risk Management Systems Under Article 9 (coming soon)*
+*Next: Module 6 — Risk Management Systems Under Article 9*

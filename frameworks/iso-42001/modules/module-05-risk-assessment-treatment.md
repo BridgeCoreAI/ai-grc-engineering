@@ -232,4 +232,4 @@ process, though they can leverage the same methodological infrastructure.
 ---
 
 *Previous: [Module 4 — Certification Process and Audit Cycle](module-04-certification-audit-cycle.md)*
-*Next: Module 6 — Operational Controls and Clause 8 (coming soon)*
+*Next: Module 6 — Operational Controls and Clause 8*

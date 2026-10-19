@@ -281,4 +281,4 @@ federal audit.
 ---
 
 *Previous: [Module 6 — Governance Controls](module-06-governance-controls.md)*
-*Next: Module 8 — GRC Engineering and Automation (coming soon)*
+*Next: Module 8 — GRC Engineering and Automation*

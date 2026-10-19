@@ -335,4 +335,4 @@ defined schedules, and maintain evidence of effectiveness.
 ---
 
 *Previous: [Module 5 — AI Risk Assessment](module-05-risk-assessment.md)*
-*Next: Module 7 — Audit Readiness and Evidence (coming soon)*
+*Next: Module 7 — Audit Readiness and Evidence*

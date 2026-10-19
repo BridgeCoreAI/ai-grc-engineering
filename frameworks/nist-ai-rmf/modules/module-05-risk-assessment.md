@@ -395,4 +395,4 @@ was completed and the risk is reduced to the agreed residual level.
 ---
 
 *Previous: [Module 4 — Real-World Application](module-04-real-world-application.md)*
-*Next: Module 6 — Governance Controls (coming soon)*
+*Next: Module 6 — Governance Controls*

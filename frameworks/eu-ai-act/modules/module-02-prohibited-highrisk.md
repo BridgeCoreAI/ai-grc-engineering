@@ -194,4 +194,4 @@ system and the regulation itself can change.
 ---
 
 *Previous: [Module 1 — Overview](module-01-overview.md)*
-*Next: Module 3 — Limited-Risk Transparency Obligations and General-Purpose AI (coming soon)*
+*Next: Module 3 — Limited-Risk Transparency Obligations and General-Purpose AI*

@@ -209,4 +209,4 @@ draw on, and that an external stage 2 auditor samples directly.
 ---
 
 *Previous: [Module 5 — AI Risk Assessment and Treatment Under Clause 6](module-05-risk-assessment-treatment.md)*
-*Next: Module 7 — Performance Evaluation Under Clause 9 (coming soon)*
+*Next: Module 7 — Performance Evaluation Under Clause 9*

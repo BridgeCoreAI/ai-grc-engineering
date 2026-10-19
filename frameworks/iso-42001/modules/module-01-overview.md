@@ -176,4 +176,4 @@ relationship with the certification body."
 
 ---
 
-*Next: Module 2 — The Seven Core Clauses in Depth (coming soon)*
+*Next: Module 2 — The Seven Core Clauses in Depth*

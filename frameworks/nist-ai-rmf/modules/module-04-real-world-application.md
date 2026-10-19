@@ -191,4 +191,4 @@ After vendor delivers improvements, AI Review Board reviews evidence package and
 ---
 
 *Previous: [Module 3 — Key Concepts](module-03-key-concepts.md)*
-*Next: Module 5 — AI Risk Assessment (coming soon)*
+*Next: Module 5 — AI Risk Assessment*

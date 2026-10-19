@@ -199,4 +199,4 @@ distinction actually looks like in operation.
 ---
 
 *Previous: [Module 3 — Annex A Controls Catalog](module-03-annex-a-controls.md)*
-*Next: Module 5 — AI Risk Assessment and Treatment Under Clause 6 (coming soon)*
+*Next: Module 5 — AI Risk Assessment and Treatment Under Clause 6*

@@ -175,4 +175,4 @@ separate from understanding the substantive obligations themselves.
 ---
 
 *Previous: [Module 7 — Data Governance and Human Oversight Requirements](module-07-data-governance-human-oversight.md)*
-*Next: Module 9 — Comparing EU AI Act, ISO 42001, and NIST AI RMF (coming soon)*
+*Next: Module 9 — Comparing EU AI Act, ISO 42001, and NIST AI RMF*

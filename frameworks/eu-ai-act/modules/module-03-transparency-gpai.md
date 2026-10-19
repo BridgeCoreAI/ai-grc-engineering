@@ -195,4 +195,4 @@ deployer building on top of it — the client actually occupies.
 ---
 
 *Previous: [Module 2 — Prohibited Practices and the High-Risk Classification System](module-02-prohibited-highrisk.md)*
-*Next: Module 4 — Conformity Assessment for High-Risk AI Systems (coming soon)*
+*Next: Module 4 — Conformity Assessment for High-Risk AI Systems*
