@@ -1,4 +1,7 @@
+[![tests](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml/badge.svg)](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml)
 # AI GRC Engineering
+
+Recorded runs with commit bindings: see the [Actions tab](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml). The "26 modules complete" claim is verified by executable checks on every push.
 
 **BridgeCore AI, Governance Systems Engineering Lab (GSEL)**
 Author: Grace M. Adjeli | [bridgecore-ai.com](https://bridgecore-ai.com) | [hello@bridgecore-ai.com](mailto:hello@bridgecore-ai.com)
