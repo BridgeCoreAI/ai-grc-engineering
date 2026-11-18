@@ -1,7 +1,7 @@
 [![tests](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml/badge.svg)](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml)
 # AI GRC Engineering
 
-Recorded runs with commit bindings: see the [Actions tab](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml). The "26 modules complete" claim is verified by executable checks on every push.
+Recorded runs with commit bindings: see the [Actions tab](https://github.com/BridgeCoreAI/ai-grc-engineering/actions/workflows/tests.yml). Executable checks verify the expected 26 module structure on every push. These checks do not independently certify technical or legal accuracy.
 
 **BridgeCore AI, Governance Systems Engineering Lab (GSEL)**
 Author: Grace M. Adjeli | [bridgecore-ai.com](https://bridgecore-ai.com) | [hello@bridgecore-ai.com](mailto:hello@bridgecore-ai.com)
@@ -31,17 +31,17 @@ Framework overview; prohibited and high-risk AI systems; transparency and GPAI o
 
 BridgeCore AI maintains a separate private implementation layer containing selected automation utilities, practitioner capstones, reusable templates, and internal methods that support the operationalization of the frameworks documented here.
 
-Current private tooling includes utilities for:
+The following private capabilities are described for scope context. They are not publicly inspectable and were not independently verified in the public evidence review:
 
 - risk rating
-- risk-tier classification
+- risk tier classification
 - risk register generation
 - evidence staleness checking
 - evidence packaging
 
-These capabilities are referenced here to document that implementation tooling exists, while the source code, detailed logic, internal methods, and reusable implementation assets remain proprietary to BridgeCore AI and are intentionally not published in this repository.
+The source code, detailed logic, internal methods, tests, outputs, and reusable implementation assets remain proprietary to BridgeCore AI and are intentionally not published in this repository. This description does not establish production deployment, client outcomes, or operational effectiveness.
 
-The public repository is the demonstrable, teachable layer. The private implementation layer preserves proprietary implementation detail and intellectual property.
+The public repository demonstrates its documented educational content and structural checks only. It does not demonstrate the private tooling.
 
 ## How it fits the broader practice
 
